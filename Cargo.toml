@@ -1,0 +1,11 @@
+[package]
+name = "hyperevm_block_downloader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = "1.6.2"
+aws-sdk-s3 = "1.83.0"
+tokio = { version = "1.32.0", features = ["full"] }
+futures = "0.3.28"
+clap = { version = "4.4", features = ["derive"] }
